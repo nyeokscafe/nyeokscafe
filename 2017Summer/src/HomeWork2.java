@@ -30,8 +30,8 @@ public class HomeWork2 {
 			double x3 = a.nextDouble();
 			double y3 = a.nextDouble();
 			
-			if( isEnableTriangle(2,7,2,3,6,7) == true)
-				System.out.println("삼각형의 면적은 " + Triangle(2,7,2,3,6,7) +"입니다.");
+			if( isEnableTriangle(x1, y1, x2, y2, x3, y3) == true)
+				System.out.println("삼각형의 면적은 " + Triangle(x1, y1, x2, y2, x3, y3) +"입니다.");
 			
 	}
 }
