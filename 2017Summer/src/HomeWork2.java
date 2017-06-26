@@ -14,6 +14,9 @@ public class HomeWork2 {
 	}
 	public static double Triangle(double x1, double y1, double x2, double y2, double x3, double y3) {
 		double area = 0.5*((x1*y2 + x2*y3 + x3*y1)-(x2*y1 + x3*y2 + x1*y3));
+		if(area<0) {
+			area = area*-1;
+		}
 		return area;
 				
 	}
